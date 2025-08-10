@@ -1,5 +1,10 @@
-const math =require('./math')
+// const {addFn ,subFn} =require('./math')
  
  
-console.log(math.addFn(3,4))
-console.log(math.subFn(5,6))
+// console.log(addFn(3,4))
+// console.log(subFn(5,6))
+
+const math=require("./math")
+
+console.log(math.add(2,3))
+console.log(math.sub(23,89))
