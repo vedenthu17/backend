@@ -2,4 +2,10 @@ function add(a, b) {
     return a + b;
 }
 
-module.exports = "vedant";
+function subtract(a,b){
+    return a-b;
+}
+module.exports = {
+    addFn:add,
+    subFn:subtract
+}
