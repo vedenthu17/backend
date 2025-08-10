@@ -1,18 +1,19 @@
 {
-  "name": "vedant",
+  "name": "newbackend",
   "version": "1.0.0",
-  "description": "Its an amazing package",
+  "description": "a basic app to deploy",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "youtube":"node helloword.js"
+    "start": "node index.js"
   },
-  "author": "Vedant",
-  "type": "module",
+  "keywords": [
+    "node",
+    "chai"
+  ],
+  "author": "vedrastic_3527",
   "license": "ISC",
   "dependencies": {
-    "@angular/cli": "^20.0.4",
+    "dotenv": "^17.2.1",
     "express": "^5.1.0"
-  },
-  "devDependencies": {}
+  }
 }
